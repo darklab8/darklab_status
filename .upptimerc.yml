@@ -5,18 +5,10 @@ repo: darklab_status # The name of this repository
 sites:
   - name: Google
     url: https://www.google.com
-    expectedStatusCodes:
-      - 504
   - name: Wikipedia
     url: https://en.wikipedia.org
-    expectedStatusCodes:
-      - 504
   - name: Hacker News
     url: https://news.ycombinator.com
-    expectedStatusCodes:
-      - 504
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
