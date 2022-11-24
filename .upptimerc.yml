@@ -5,6 +5,8 @@ repo: darklab_status # The name of this repository
 sites:
   - name: Google
     url: https://www.google.com
+    expectedStatusCodes:
+      - 504
   - name: Wikipedia
     url: https://en.wikipedia.org
     expectedStatusCodes:
