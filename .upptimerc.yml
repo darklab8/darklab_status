@@ -13,6 +13,8 @@ sites:
       - 504
   - name: Hacker News
     url: https://news.ycombinator.com
+    expectedStatusCodes:
+      - 504
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
 
